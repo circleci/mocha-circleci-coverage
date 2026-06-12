@@ -62,7 +62,7 @@ jobs:
           command: |
             pnpm generate:ci
 
-            if git diff --exit-code; then
+            if git diff --exit-code -- ':!.npmrc'; then
               echo "Coverage JSON up to date"
             else
               echo "Regenerate coverage JSON locally with 'pnpm generate' and check in the changes"
