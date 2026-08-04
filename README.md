@@ -1,5 +1,8 @@
 # mocha-circleci-coverage
 
+> [!IMPORTANT]
+> This plugin has moved: https://github.com/CircleCI-Public/smarter-testing-plugins
+
 [![JSR](https://jsr.io/badges/@circleci/mocha-circleci-coverage)](https://jsr.io/@circleci/mocha-circleci-coverage)
 
 A Mocha plugin that generates coverage data for CircleCI's Smarter Testing.
